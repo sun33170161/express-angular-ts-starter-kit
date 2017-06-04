@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "lib": ["dom", "dom.iterable", "es2015", "es2015.promise", "es2015.core", "es2015.collection"]
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true,
+        "useCache": true
+    },
+    "include": [
+        "./typings/**.d.ts",
+        "./server/src/**/*",
+        "./client/src/**/*"
+    ]
+}
