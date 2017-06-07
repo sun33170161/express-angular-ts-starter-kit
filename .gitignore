@@ -1,0 +1,6 @@
+.tscache/
+.vscode/
+dist/
+node_modules/
+.baseDir.ts
+
